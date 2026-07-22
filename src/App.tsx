@@ -80,7 +80,7 @@ function AppInner() {
                 textTransform: 'uppercase',
                 letterSpacing: '0.04em',
               }}>
-                {isPro ? 'Pro' : 'Free'}
+                {isPro ? 'Studio Pass' : 'Free'}
               </span>
             )}
         </div>
