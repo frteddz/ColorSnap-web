@@ -115,7 +115,8 @@ function AppInner() {
                 marginBottom: '6px',
               }}
             >
-              ⭐ Upgrade to Pro
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>
+            Unlock Studio Pass
             </button>
           )}
           <button className="sidebar-theme-btn" onClick={toggleTheme} title="Toggle theme">
@@ -130,6 +131,18 @@ function AppInner() {
               </svg>
             )}
           </button>
+          <a
+            href="https://frteddz.github.io/Euthenia-Studio-Website/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px',
+              padding: '6px 0', fontSize: '0.65rem', color: 'var(--color-text-tertiary)',
+              textDecoration: 'none', borderTop: '1px solid var(--color-border)', marginTop: '4px',
+            }}
+          >
+            Made by <span style={{ color: 'var(--color-accent)', fontWeight: 600 }}>Euthenia Studio</span>
+          </a>
         </div>
       </aside>
 
