@@ -2,6 +2,8 @@
 
 > Color picker and palette manager — capture, convert, and organize colors with ease.
 
+This repository contains only the built distribution files. The source code is not publicly available.
+
 ## Features
 
 - Pick colors from anywhere on your screen using the eyedropper
